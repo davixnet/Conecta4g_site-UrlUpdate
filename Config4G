@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.3",
+  "Version": "1.0.4",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/davixnet/Conecta4g_site-UrlUpdate/main/Config4G",
   "Sms": "https://raw.githubusercontent.com/davixnet/DX.NET_site-UrlSms/main/Dx.netsms",
@@ -12,16 +12,16 @@
       "Porta": "7300"
     },
     {
-      "Porta": ""
+      "Porta": "7400"
     },
     {
-      "Porta": ""
+      "Porta": "7500"
     },
     {
-      "Porta": ""
+      "Porta": "7600"
     },
     {
-      "Porta": ""
+      "Porta": "7700"
     }
   ],
   "Servers": [
@@ -30,7 +30,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "br.baronnetssl.online",
-      "CheckUser": "http://152.67.43.26:5454/checkUser",
+      "CheckUser": "http://168.138.145.149:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -41,7 +41,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "br.baronnetssl.online",
-      "CheckUser": "http://152.67.43.26:5454/checkUser",
+      "CheckUser": "http://168.138.145.149:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -55,7 +55,27 @@
       "Payload": "GET sni://cadastro.vivo.com.br HTTP/1.1[crlf]Host: br.baronnetssl.online[crlf]X-Forward-Host: br.baronnetssl.online[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
       "SNI": "cadastro.vivo.com.br",
       "TlsIP": "104.18.7.80",
-      "ProxyIP": ""
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO SEM PROMOÇÃO💸",
+      "FLAG": "claro",
+      "Payload": "GET sni://no.descomplica.com.br HTTP/1.1[crlf]Host: br.baronnetssl.online[crlf]X-Forward-Host: br.baronnetssl.online[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "SNI": "no.descomplica.com.br",
+      "TlsIP": "no.descomplica.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "OI SSLPAY",
+      "FLAG": "oi",
+      "Payload": "GET wss://www.hbogo.com.br/ HTTP/1.1[crlf]Host: br.baronnetssl.online[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
+      "SNI": "www.hbogo.com.br",
+      "TlsIP": "www.hbogo.com.br",
+      "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
@@ -70,34 +90,14 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "VIVO",
+      "Name": "VIVO DIRECT",
       "FLAG": "vivo",
-      "Payload": "GET wss://ged360.vivo.com.br HTTP/1.1[crlf]Host: br.baronnetssl.online [crlf]X-Forward-Host: br.baronnetssl.online[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf] GET [host_port][protocol][crlf][crlf]",
+      "Payload": "GET wss://cadastro.vivo.com.br/ HTTP/1.1[crlf]Host: br.baronnetssl.online[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.7.80",
       "ProxyPort": "80",
       "Info": "Proxy"
-    },
-    {
-      "Name": "CLARO SEM PROMOÇÃO",
-      "FLAG": "claro",
-      "Payload": "GET sni://no.descomplica.com.br HTTP/1.1[crlf]Host: br.baronnetssl.online[crlf]X-Forward-Host: br.baronnetssl.online[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
-      "SNI": "no.descomplica.com.br",
-      "TlsIP": "no.descomplica.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "OI SSLPAY",
-      "FLAG": "oi",
-      "Payload": "GET wss://www.hbogo.com.br HTTP/1.1[crlf]Host: br.baronnetssl.online[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "www.hbogo.com.br",
-      "TlsIP": "www.hbogo.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
     }
   ]
 }

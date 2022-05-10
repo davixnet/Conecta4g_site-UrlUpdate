@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.4",
+  "Version": "2.1.4",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/davixnet/Conecta4g_site-UrlUpdate/main/Config4G",
   "Sms": "https://raw.githubusercontent.com/davixnet/DX.NET_site-UrlSms/main/Dx.netsms",
@@ -50,7 +50,7 @@
   ],
   "Networks": [
     {
-      ""Name": "VIVO TODAS AS REGIÕES", 
+      "Name": "VIVO TODAS AS REGIÕES", 
 "FLAG": "vivo", 
 "Payload": "GET ws://vigia.vivo.com.br HTTP/1.1\nHost: br.baronnetssl.online\nUpgrade: ws\n\n", 
 "SNI": "vigia.vivo.com.br", 

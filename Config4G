@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.4",
+  "Version": "1.0.5",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/davixnet/Conecta4g_site-UrlUpdate/main/Config4G",
   "Sms": "https://raw.githubusercontent.com/davixnet/DX.NET_site-UrlSms/main/Dx.netsms",
@@ -62,8 +62,8 @@
     {
       "Name": "CLARO SEM PROMOÇÃO💸",
       "FLAG": "claro",
-      "Payload": "GET sni://no.descomplica.com.br HTTP/1.1[crlf]Host: br.baronnetssl.online[crlf]X-Forward-Host: br.baronnetssl.online[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
-      "SNI": "no.descomplica.com.br",
+      "Payload": "GET sni://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: br.baronnetssl.online[crlf]X-Forward-Host: br.baronnetssl.online[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "SNI": "atendimento.descomplica.com.br",
       "TlsIP": "no.descomplica.com.br",
       "ProxyIP": "",
       "ProxyPort": "",

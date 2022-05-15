@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.6",
+  "Version": "1.0.5",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/davixnet/Conecta4g_site-UrlUpdate/main/Config4G",
   "Sms": "https://raw.githubusercontent.com/davixnet/DX.NET_site-UrlSms/main/Dx.netsms",
@@ -30,7 +30,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "br.baronnetssl.online",
-      "CheckUser": "http://51.140.230.16:5454/checkUser,
+      "CheckUser": "http://51.140.230.16:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",

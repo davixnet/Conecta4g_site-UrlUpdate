@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.7",
+  "Version": "1.0.8",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/davixnet/Conecta4g_site-UrlUpdate/main/Config4G",
   "Sms": "https://raw.githubusercontent.com/davixnet/DX.NET_site-UrlSms/main/Dx.netsms",
@@ -74,7 +74,7 @@
    
       "Name": "Vivo 3",
       "FLAG": "vivo",
-      "Payload": "GET wss://gedoc.vivo.com.br HTTP/1.1[crlf]Host:  [app_host][crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+      "Payload": "GET wss://gedoc.vivo.com.br HTTP/1.1[crlf]Host:  br.baronnetssl.online[crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
       "SNI": "gedoc.vivo.com.br",
       "TlsIP": "104.18.6.80",
       "ProxyIP": "",
@@ -98,7 +98,7 @@
    
       "Name": "Vivo 5",
       "FLAG": "vivo",
-      "Payload": "GET wss://portaldeassinaturas.vivo.com.br HTTP/1.1[crlf]Host: [app_host] [crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+      "Payload": "GET wss://portaldeassinaturas.vivo.com.br HTTP/1.1[crlf]Host: br.baronnetssl.online[crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
       "SNI": "portaldeassinaturas.vivo.com.br ",
       "TlsIP": "portaldeassinaturas.vivo.com.br ",
       "ProxyIP": "",
@@ -120,7 +120,7 @@
       
       "Name": "Vivo 7",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host] [crlf]Upgrade: ws[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: br.baronnetssl.online[crlf]Upgrade: ws[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.18.6.80",

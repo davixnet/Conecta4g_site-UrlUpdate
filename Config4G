@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.0",
+  "Version": "1.1.1",
   "ReleaseNotes": "",
   "UrlUpdate": "https://raw.githubusercontent.com/davixnet/Conecta4g_site-UrlUpdate/main/Config4G",
   "Sms": "https://raw.githubusercontent.com/davixnet/DX.NET_site-UrlSms/main/Dx.netsms",
@@ -10,18 +10,6 @@
   "Udp": [
     {
       "Porta": "7300"
-    },
-    {
-      "Porta": ""
-    },
-    {
-      "Porta": ""
-    },
-    {
-      "Porta": ""
-    },
-    {
-      "Porta": ""
     }
   ],
   "Servers": [
